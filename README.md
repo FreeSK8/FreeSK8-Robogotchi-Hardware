@@ -1,6 +1,6 @@
 # FreeSK8-Robogotchi-Hardware
  
-![FreeSK8 Robogotchi](https://github.com/FreeSK8/FreeSK8-Robogotchi-Hardware/blob/main/Drawings/FreeSK8-Robogotchi-Logo.png)
+![FreeSK8 Robogotchi](https://github.com/FreeSK8/FreeSK8-Robogotchi-Hardware/blob/main/Docs/FreeSK8-Robogotchi-Logo.png)
 
 The [FreeSK8 Robogotchi](https://derelictrobot.com/collections/production/products/freesk8-robogotchi) is an advanced BLE Receiver, Datalogger, and core component of the FreeSK8 System.
 
@@ -10,4 +10,4 @@ The Robogotchi brings Always-On Logging as a core feature with an asynchronous l
 
 Ride now, Sync later.
 
-![Robogotchi v1.2](https://github.com/FreeSK8/FreeSK8-Robogotchi-Hardware/blob/main/Drawings/Robogotchi-v1.2b.PNG)
+![Robogotchi v1.2](https://github.com/FreeSK8/FreeSK8-Robogotchi-Hardware/blob/main/Docs/Robogotchi-v1.2b.PNG)
