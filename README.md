@@ -46,4 +46,4 @@ Contributions are what make the open source community such an amazing place to b
 ## Acknowledgements & Reference
 
 * [VESC-Project](https://vesc-project.com)
-* [Nordic](https://infocenter.nordicsemi.com/index.jsp)
+* [Nordic NRF5 SDK](https://infocenter.nordicsemi.com/index.jsp)
