@@ -4,15 +4,17 @@
 ## License
 
 (C) Copyright 2021 - FreeSK8 Foundation NPO
-Licensed under CERN-OHL-S V2.0
+
+**Licensed under [CERN-OHL-S V2.0](https://ohwr.org/cern_ohl_s_v2.txt)**
+
 https://cern-ohl.web.cern.ch/
 
 <!-- CONTACT -->
 ## Authors
 
-Renee Glinski - @r3n33
-Andrew Dresner - @DerelictRobot
-Project Link: [https://github.com/FreeSK8](https://github.com/FreeSK8)
+* Renee Glinski - [@r3n33](https://github.com/r3n33)
+* Andrew Dresner - [@DerelictRobot](https://github.com/DerelictRobot)
+* Project Link: [https://github.com/FreeSK8](https://github.com/FreeSK8)
  
  
 ![FreeSK8 Robogotchi](https://github.com/FreeSK8/FreeSK8-Robogotchi-Hardware/blob/main/Docs/FreeSK8-Robogotchi-Logo.png)
