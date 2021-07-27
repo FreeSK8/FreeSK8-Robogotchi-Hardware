@@ -1,0 +1,1065 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "FreeSK8 Robogotchi"
+Date "2021-07-27"
+Rev "v1.3"
+Comp "Derelict Robot Industries"
+Comment1 "Authors: Andrew Dresner & Renee Love"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR021
+U 1 1 5EBF37A1
+P 6550 5150
+F 0 "#PWR021" H 6550 4900 50  0001 C CNN
+F 1 "GND" H 6555 4977 50  0000 C CNN
+F 2 "" H 6550 5150 50  0001 C CNN
+F 3 "" H 6550 5150 50  0001 C CNN
+	1    6550 5150
+	1    0    0    -1  
+$EndComp
+Text Label 6300 3800 0    50   ~ 0
+SWDIO
+Text Label 6300 3700 0    50   ~ 0
+SWCLK
+$Comp
+L power:+3.3V #PWR020
+U 1 1 5EC24266
+P 6550 4600
+F 0 "#PWR020" H 6550 4450 50  0001 C CNN
+F 1 "+3.3V" H 6565 4773 50  0000 C CNN
+F 2 "" H 6550 4600 50  0001 C CNN
+F 3 "" H 6550 4600 50  0001 C CNN
+	1    6550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4700 7650 4700
+Wire Wire Line
+	7800 4800 7650 4800
+$Comp
+L Xenigotchi-v1.3-rescue:CMT-8503-90-SMT-TR-CMT-8503-90-SMT-TR LS1
+U 1 1 5EC67B5E
+P 9900 4350
+F 0 "LS1" H 10080 4372 50  0000 L CNN
+F 1 "CMT-8503-90-SMT-TR" H 10080 4305 20  0000 L CNN
+F 2 "CMT-8503-90-SMT-TR:XDCR_CMT-8503-90-SMT-TR" H 9900 4350 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/cui-devices/CMT-8503-90-SMT-TR/102-CMT-8503-90-SMT-CT-ND/10326248" H 9900 4350 50  0001 L BNN
+F 4 "1.0" H 9900 4350 50  0001 L BNN "Field4"
+F 5 "Manufacturer Recommendations" H 9900 4350 50  0001 L BNN "Field5"
+F 6 "3.00mm" H 9900 4350 50  0001 L BNN "Field6"
+	1    9900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5EC6A77A
+P 9900 5150
+F 0 "#PWR026" H 9900 4900 50  0001 C CNN
+F 1 "GND" H 9905 4977 50  0000 C CNN
+F 2 "" H 9900 5150 50  0001 C CNN
+F 3 "" H 9900 5150 50  0001 C CNN
+	1    9900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR019
+U 1 1 5ED0F6AE
+P 1350 3700
+F 0 "#PWR019" H 1350 3550 50  0001 C CNN
+F 1 "+5V" H 1365 3873 50  0000 C CNN
+F 2 "" H 1350 3700 50  0001 C CNN
+F 3 "" H 1350 3700 50  0001 C CNN
+	1    1350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR06
+U 1 1 5F0F665A
+P 1350 5650
+F 0 "#PWR06" H 1350 5500 50  0001 C CNN
+F 1 "+3V3" H 1365 5823 50  0000 C CNN
+F 2 "" H 1350 5650 50  0001 C CNN
+F 3 "" H 1350 5650 50  0001 C CNN
+	1    1350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5F13B97C
+P 2950 6750
+F 0 "#PWR011" H 2950 6500 50  0001 C CNN
+F 1 "GND" H 2955 6577 50  0000 C CNN
+F 2 "" H 2950 6750 50  0001 C CNN
+F 3 "" H 2950 6750 50  0001 C CNN
+	1    2950 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenigotchi-v1.3-rescue:AB-RTCMC-32.768kHz-EOZ9-S3-DBT-SamacSys_Parts Y1
+U 1 1 5F2731F1
+P 1450 6250
+F 0 "Y1" H 2150 6515 50  0000 C CNN
+F 1 "RV-3129-C3" H 2150 6424 50  0000 C CNN
+F 2 "SamacSys_Parts:ABRTCMC32768kHzEOZ9S3DBT" H 2700 6350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/AB-RTCMC-32.768kHz-EOZ9-S3-DBT.pdf" H 2700 6250 50  0001 L CNN
+F 4 "Real Time Clock HH:MM:SS 12/24 hour Wk DD Alarm/Tmr I2C" H 2700 6150 50  0001 L CNN "Description"
+F 5 "0.9" H 2700 6050 50  0001 L CNN "Height"
+F 6 "815-ABMC-327EOZ9S3DB" H 2700 5950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=815-ABMC-327EOZ9S3DB" H 2700 5850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ABRACON" H 2700 5750 50  0001 L CNN "Manufacturer_Name"
+F 9 "AB-RTCMC-32.768kHz-EOZ9-S3-DBT" H 2700 5650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1450 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6650 2950 6650
+Wire Wire Line
+	2950 6650 2950 6750
+NoConn ~ 2850 6450
+NoConn ~ 2850 6250
+Wire Wire Line
+	1450 6550 1150 6550
+Wire Wire Line
+	1450 6350 1350 6350
+Wire Wire Line
+	1350 6350 1350 5700
+NoConn ~ 1450 6250
+NoConn ~ 1450 6450
+NoConn ~ 2850 6550
+Text Label 1150 6550 0    50   ~ 0
+SCL
+Wire Wire Line
+	2850 6350 3200 6350
+Text Label 3200 6350 2    50   ~ 0
+VBACKUP
+$Comp
+L Xenigotchi-v1.3-rescue:DSK-3R3H224U-HL-DSK-3R3H224U-HL C3
+U 1 1 5F307DDE
+P 3700 6900
+F 0 "C3" V 3550 6900 50  0000 L CNN
+F 1 "DSK-3R3H224U-HL" H 3550 6750 50  0000 L CNN
+F 2 "DSK-3R3H224U-HL:CAP_DSK-3R3H224U-HL" H 3700 6900 50  0001 L BNN
+F 3 "Unavailable" H 3700 6900 50  0001 L BNN
+F 4 "DSK-3R3H224U-HL" H 3700 6900 50  0001 L BNN "Field4"
+F 5 "None" H 3700 6900 50  0001 L BNN "Field5"
+F 6 "Elna America" H 3700 6900 50  0001 L BNN "Field6"
+F 7 "DSK Series 0.22 F 3.3 V ±30 % Coin Cell Aluminum Electrolytic Dynacap Capacitor" H 3700 6900 50  0001 L BNN "Field7"
+F 8 "Coin Wide Terminals - Opposite Sides  Elna" H 3700 6900 50  0001 L BNN "Field8"
+	1    3700 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 7000 3700 7100
+$Comp
+L power:GND #PWR07
+U 1 1 5F311F9C
+P 3700 7100
+F 0 "#PWR07" H 3700 6850 50  0001 C CNN
+F 1 "GND" H 3705 6927 50  0000 C CNN
+F 2 "" H 3700 7100 50  0001 C CNN
+F 3 "" H 3700 7100 50  0001 C CNN
+	1    3700 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6700 3700 6600
+$Comp
+L Device:R_Small_US R3
+U 1 1 5F34AFC6
+P 3700 6500
+F 0 "R3" H 3768 6546 50  0000 L CNN
+F 1 "470r" H 3768 6455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 6500 50  0001 C CNN
+F 3 "~" H 3700 6500 50  0001 C CNN
+	1    3700 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6350 3200 6450
+$Comp
+L Device:C_Small C5
+U 1 1 5F35BBD7
+P 3200 6550
+F 0 "C5" H 3292 6596 50  0000 L CNN
+F 1 "10000pF" H 3292 6505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3200 6550 50  0001 C CNN
+F 3 "~" H 3200 6550 50  0001 C CNN
+	1    3200 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6650 3200 6800
+$Comp
+L power:GND #PWR09
+U 1 1 5F3653E2
+P 3200 6800
+F 0 "#PWR09" H 3200 6550 50  0001 C CNN
+F 1 "GND" H 3205 6627 50  0000 C CNN
+F 2 "" H 3200 6800 50  0001 C CNN
+F 3 "" H 3200 6800 50  0001 C CNN
+	1    3200 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 6650 1000 6650
+Text Label 1000 6650 0    50   ~ 0
+SDA
+$Comp
+L power:+3V3 #PWR02
+U 1 1 5F39D68A
+P 1050 6100
+F 0 "#PWR02" H 1050 5950 50  0001 C CNN
+F 1 "+3V3" H 1065 6273 50  0000 C CNN
+F 2 "" H 1050 6100 50  0001 C CNN
+F 3 "" H 1050 6100 50  0001 C CNN
+	1    1050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5F39F1C8
+P 1000 6400
+F 0 "R1" H 932 6446 50  0000 R CNN
+F 1 "10k" H 932 6355 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1000 6400 50  0001 C CNN
+F 3 "~" H 1000 6400 50  0001 C CNN
+	1    1000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 5F39FF5C
+P 1150 6400
+F 0 "R2" H 1218 6446 50  0000 L CNN
+F 1 "10k" H 1218 6355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1150 6400 50  0001 C CNN
+F 3 "~" H 1150 6400 50  0001 C CNN
+	1    1150 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6650 1000 6500
+Wire Wire Line
+	1150 6550 1150 6500
+Wire Wire Line
+	1000 6300 1000 6200
+Wire Wire Line
+	1000 6200 1050 6200
+Wire Wire Line
+	1150 6200 1150 6300
+Wire Wire Line
+	1050 6100 1050 6200
+Connection ~ 1050 6200
+Wire Wire Line
+	1050 6200 1150 6200
+NoConn ~ 8450 -2100
+$Comp
+L Xenigotchi-v1.3-rescue:S4B-PH-K-SLFSN-2020-06-27_20-01-28 GPS1
+U 1 1 5F6654B3
+P 9450 1950
+F 0 "GPS1" H 9692 2237 60  0000 C CNB
+F 1 "S4B-PH-K-SLFSN" H 9692 2131 60  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 9850 1690 60  0001 C CNN
+F 3 "" H 9450 1950 60  0000 C CNN
+	1    9450 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 1950 10700 1800
+Wire Wire Line
+	9450 2050 10850 2050
+Wire Wire Line
+	10850 2050 10850 2250
+$Comp
+L power:GND #PWR030
+U 1 1 5F6F4EE7
+P 10850 2250
+F 0 "#PWR030" H 10850 2000 50  0001 C CNN
+F 1 "GND" H 10855 2077 50  0000 C CNN
+F 2 "" H 10850 2250 50  0001 C CNN
+F 3 "" H 10850 2250 50  0001 C CNN
+	1    10850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR029
+U 1 1 5F6F596E
+P 10700 1800
+F 0 "#PWR029" H 10700 1650 50  0001 C CNN
+F 1 "+3V3" H 10715 1973 50  0000 C CNN
+F 2 "" H 10700 1800 50  0001 C CNN
+F 3 "" H 10700 1800 50  0001 C CNN
+	1    10700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2150 10700 2150
+Wire Wire Line
+	9450 2250 10700 2250
+Text Label 10700 2250 2    50   ~ 0
+GPS-TX
+Text Label 10700 2150 2    50   ~ 0
+GPS-RX
+Wire Wire Line
+	3800 1800 3950 1800
+Connection ~ 3800 1800
+Wire Wire Line
+	3800 2000 3800 1800
+Connection ~ 3950 1800
+$Comp
+L power:GND #PWR012
+U 1 1 5F0AE877
+P 3450 1900
+F 0 "#PWR012" H 3450 1650 50  0001 C CNN
+F 1 "GND" V 3455 1772 50  0000 R CNN
+F 2 "" H 3450 1900 50  0001 C CNN
+F 3 "" H 3450 1900 50  0001 C CNN
+	1    3450 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5F0ACEF4
+P 2800 2550
+F 0 "#PWR010" H 2800 2300 50  0001 C CNN
+F 1 "GND" V 2805 2422 50  0000 R CNN
+F 2 "" H 2800 2550 50  0001 C CNN
+F 3 "" H 2800 2550 50  0001 C CNN
+	1    2800 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 1800
+$Comp
+L power:GND #PWR013
+U 1 1 5F019A3E
+P 4200 2300
+F 0 "#PWR013" H 4200 2050 50  0001 C CNN
+F 1 "GND" H 4205 2127 50  0000 C CNN
+F 2 "" H 4200 2300 50  0001 C CNN
+F 3 "" H 4200 2300 50  0001 C CNN
+	1    4200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F018CBC
+P 1200 2200
+F 0 "#PWR03" H 1200 1950 50  0001 C CNN
+F 1 "GND" H 1205 2027 50  0000 C CNN
+F 2 "" H 1200 2200 50  0001 C CNN
+F 3 "" H 1200 2200 50  0001 C CNN
+	1    1200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2200 4300 2200
+Connection ~ 4200 2200
+Wire Wire Line
+	4200 2200 4200 2300
+Wire Wire Line
+	1200 2100 1100 2100
+Connection ~ 1200 2100
+Wire Wire Line
+	1200 2100 1200 2200
+Wire Wire Line
+	1100 2100 1100 2050
+Wire Wire Line
+	1450 2100 1200 2100
+Wire Wire Line
+	1450 2050 1450 2100
+Connection ~ 1100 1800
+Wire Wire Line
+	1450 1800 1450 1850
+Wire Wire Line
+	1100 1800 1450 1800
+Wire Wire Line
+	1100 1800 950  1800
+Wire Wire Line
+	1100 1850 1100 1800
+Wire Wire Line
+	3950 2200 4200 2200
+Wire Wire Line
+	3950 2150 3950 2200
+Wire Wire Line
+	4300 2150 4300 2200
+Connection ~ 4300 1800
+Wire Wire Line
+	3950 1800 3950 1950
+Wire Wire Line
+	4300 1800 3950 1800
+Wire Wire Line
+	4500 1800 4500 1650
+Wire Wire Line
+	4300 1800 4300 1950
+Wire Wire Line
+	4500 1800 4300 1800
+$Comp
+L Device:C_Small C2
+U 1 1 5EF96C24
+P 1450 1950
+F 0 "C2" H 1542 1996 50  0000 L CNN
+F 1 "10uF" H 1542 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1450 1950 50  0001 C CNN
+F 3 "~" H 1450 1950 50  0001 C CNN
+	1    1450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5EF95FEE
+P 1100 1950
+F 0 "C1" H 1192 1996 50  0000 L CNN
+F 1 "1.0uF" H 1192 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 1950 50  0001 C CNN
+F 3 "~" H 1100 1950 50  0001 C CNN
+	1    1100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5EF94FC3
+P 3950 2050
+F 0 "C6" H 4042 2096 50  0000 L CNN
+F 1 "10uF" H 4042 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3950 2050 50  0001 C CNN
+F 3 "~" H 3950 2050 50  0001 C CNN
+	1    3950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5EF93D91
+P 4300 2050
+F 0 "C7" H 4392 2096 50  0000 L CNN
+F 1 "1.0uF" H 4392 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 2050 50  0001 C CNN
+F 3 "~" H 4300 2050 50  0001 C CNN
+	1    4300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR01
+U 1 1 5EF70258
+P 950 1650
+F 0 "#PWR01" H 950 1500 50  0001 C CNN
+F 1 "+3V3" H 965 1823 50  0000 C CNN
+F 2 "" H 950 1650 50  0001 C CNN
+F 3 "" H 950 1650 50  0001 C CNN
+	1    950  1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1650 950  1800
+$Comp
+L power:+5V #PWR014
+U 1 1 5EF63B0C
+P 4500 1650
+F 0 "#PWR014" H 4500 1500 50  0001 C CNN
+F 1 "+5V" H 4515 1823 50  0000 C CNN
+F 2 "" H 4500 1650 50  0001 C CNN
+F 3 "" H 4500 1650 50  0001 C CNN
+	1    4500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenigotchi-v1.3-rescue:W25N01GVZEIG_TR-W25N01GVZEIG_TR U2
+U 1 1 5EC3B8D4
+P 5500 6600
+F 0 "U2" H 5500 7167 50  0000 C CNN
+F 1 "W25N01GVZEIG_TR" H 5500 7076 50  0000 C CNN
+F 2 "W25N01GVZEIG_TR:SON127P800X600X80-9N" H 5500 6600 50  0001 L BNN
+F 3 "http://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf" H 5500 6600 50  0001 L BNN
+	1    5500 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 6300 6300 6300
+Wire Wire Line
+	6300 6300 6300 6250
+Wire Wire Line
+	6100 6900 6300 6900
+Wire Wire Line
+	6300 6900 6300 7050
+NoConn ~ 6100 6700
+$Comp
+L power:+3.3V #PWR017
+U 1 1 5ECCFD9B
+P 6300 6250
+F 0 "#PWR017" H 6300 6100 50  0001 C CNN
+F 1 "+3.3V" H 6315 6423 50  0000 C CNN
+F 2 "" H 6300 6250 50  0001 C CNN
+F 3 "" H 6300 6250 50  0001 C CNN
+	1    6300 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5ECCFEF0
+P 6300 7050
+F 0 "#PWR018" H 6300 6800 50  0001 C CNN
+F 1 "GND" H 6305 6877 50  0000 C CNN
+F 2 "" H 6300 7050 50  0001 C CNN
+F 3 "" H 6300 7050 50  0001 C CNN
+	1    6300 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6300 4500 6300
+Wire Wire Line
+	4900 6400 4500 6400
+Wire Wire Line
+	4900 6600 4500 6600
+Wire Wire Line
+	4900 6700 4500 6700
+Wire Wire Line
+	4900 6800 4500 6800
+Wire Wire Line
+	4900 6900 4500 6900
+Text Label 4500 6300 0    50   ~ 0
+P0.17
+Text Label 4500 6400 0    50   ~ 0
+P0.19
+Text Label 4500 6600 0    50   ~ 0
+P0.20
+Text Label 4500 6700 0    50   ~ 0
+P0.21
+Text Label 4500 6800 0    50   ~ 0
+P0.22
+Text Label 4500 6900 0    50   ~ 0
+P0.23
+$Comp
+L Xenigotchi-v1.3-rescue:LP5912-3.3DRVR-SamacSys_Parts IC1
+U 1 1 5F01A42A
+P 2300 1800
+F 0 "IC1" H 2800 2065 50  0000 C CNN
+F 1 "LP5912-3.3DRVR" H 2800 1974 50  0000 C CNN
+F 2 "SamacSys_Parts:SON65P200X200X80-7N" H 3150 1900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/lp5912" H 3150 1800 50  0001 L CNN
+F 4 "500-mA low-noise low-IQ low-dropout (LDO) linear regulator" H 3150 1700 50  0001 L CNN "Description"
+F 5 "0.8" H 3150 1600 50  0001 L CNN "Height"
+F 6 "595-LP5912-3.3DRVR" H 3150 1500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5912-33DRVR?qs=n%252BTO0c4TDSY0RMrHlK%2FGvQ%3D%3D" H 3150 1400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 3150 1300 50  0001 L CNN "Manufacturer_Name"
+F 9 "LP5912-3.3DRVR" H 3150 1200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2500 2800 2550
+Wire Wire Line
+	3300 1800 3800 1800
+Wire Wire Line
+	3450 1900 3300 1900
+Wire Wire Line
+	3300 2000 3800 2000
+Wire Wire Line
+	1450 1800 2300 1800
+NoConn ~ 2300 2000
+$Comp
+L Device:LED D1
+U 1 1 5F6BCDAE
+P 8250 4550
+F 0 "D1" V 8289 4433 50  0000 R CNN
+F 1 "LED" V 8198 4433 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 8250 4550 50  0001 C CNN
+F 3 "~" H 8250 4550 50  0001 C CNN
+	1    8250 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5F6BEEC3
+P 8250 4850
+F 0 "#PWR024" H 8250 4600 50  0001 C CNN
+F 1 "GND" H 8255 4677 50  0000 C CNN
+F 2 "" H 8250 4850 50  0001 C CNN
+F 3 "" H 8250 4850 50  0001 C CNN
+	1    8250 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4700 8250 4850
+$Comp
+L Device:R_Small_US R4
+U 1 1 5F6D1921
+P 8250 4150
+F 0 "R4" H 8318 4196 50  0000 L CNN
+F 1 "1k" H 8318 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8250 4150 50  0001 C CNN
+F 3 "~" H 8250 4150 50  0001 C CNN
+	1    8250 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4250 8250 4400
+$Comp
+L power:GND #PWR015
+U 1 1 5F78470E
+P 4800 5200
+F 0 "#PWR015" H 4800 4950 50  0001 C CNN
+F 1 "GND" H 4805 5027 50  0000 C CNN
+F 2 "" H 4800 5200 50  0001 C CNN
+F 3 "" H 4800 5200 50  0001 C CNN
+	1    4800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR016
+U 1 1 5F7A7850
+P 4850 3050
+F 0 "#PWR016" H 4850 2900 50  0001 C CNN
+F 1 "+3.3V" H 4865 3223 50  0000 C CNN
+F 2 "" H 4850 3050 50  0001 C CNN
+F 3 "" H 4850 3050 50  0001 C CNN
+	1    4850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5100 4750 5150
+Wire Wire Line
+	4750 5150 4800 5150
+Wire Wire Line
+	4800 5150 4800 5200
+Wire Wire Line
+	4850 5100 4850 5150
+Wire Wire Line
+	4850 5150 4800 5150
+Connection ~ 4800 5150
+Wire Wire Line
+	5650 3900 6150 3900
+Text Label 6150 3900 2    50   ~ 0
+P0.23
+Wire Wire Line
+	5650 4000 6150 4000
+Text Label 6150 4000 2    50   ~ 0
+P0.22
+Wire Wire Line
+	5650 4200 6150 4200
+Text Label 6150 4200 2    50   ~ 0
+P0.21
+Wire Wire Line
+	5650 4300 6150 4300
+Text Label 6150 4300 2    50   ~ 0
+P0.20
+Wire Wire Line
+	5650 4400 6150 4400
+Text Label 6150 4400 2    50   ~ 0
+P0.19
+Wire Wire Line
+	5650 4500 6150 4500
+Text Label 6150 4500 2    50   ~ 0
+P0.17
+Wire Wire Line
+	5650 4600 6150 4600
+Wire Wire Line
+	5650 4700 6150 4700
+Text Label 6150 4600 2    50   ~ 0
+P0.10
+Text Label 6150 4700 2    50   ~ 0
+P0.09
+Wire Wire Line
+	4050 3700 3450 3700
+Wire Wire Line
+	4050 3800 3450 3800
+Wire Wire Line
+	4050 3900 3450 3900
+Wire Wire Line
+	4050 4000 3450 4000
+Wire Wire Line
+	4050 4100 3450 4100
+Wire Wire Line
+	4050 4200 3450 4200
+Wire Wire Line
+	4050 4300 3450 4300
+Wire Wire Line
+	4050 4800 3450 4800
+Text Label 3450 3700 0    50   ~ 0
+P0.05
+Text Label 3450 3800 0    50   ~ 0
+SDA
+Text Label 3450 3900 0    50   ~ 0
+SCL
+Text Label 3450 4000 0    50   ~ 0
+P0.28
+Text Label 3450 4100 0    50   ~ 0
+P0.29
+Text Label 3450 4200 0    50   ~ 0
+P0.30
+Text Label 3450 4300 0    50   ~ 0
+P0.31
+Text Label 3450 4800 0    50   ~ 0
+P0.08
+Wire Wire Line
+	4050 4400 3450 4400
+Text Label 3450 4400 0    50   ~ 0
+GPS-TX
+Text Label 3450 4500 0    50   ~ 0
+GPS-RX
+Wire Wire Line
+	4050 4500 3450 4500
+Wire Wire Line
+	4050 4600 3450 4600
+Wire Wire Line
+	4050 4700 3450 4700
+Text Label 3450 4700 0    50   ~ 0
+ESC-TX
+Text Label 3450 4600 0    50   ~ 0
+ESC-RX
+$Comp
+L Xenigotchi-v1.3-rescue:2SD1484KT146R-2SD1484KT146R Q1
+U 1 1 5FA0CB89
+P 9600 4850
+F 0 "Q1" H 9992 4903 60  0000 L CNN
+F 1 "2SD1484KT146R" H 9992 4797 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 10000 4590 60  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/discrete/transistor/bipolar/2sd1484k-e.pdf" H 9992 4744 60  0001 L CNN
+	1    9600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 5FA0E7BB
+P 9300 4850
+F 0 "R5" V 9095 4850 50  0000 C CNN
+F 1 "180r" V 9186 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9300 4850 50  0001 C CNN
+F 3 "~" H 9300 4850 50  0001 C CNN
+	1    9300 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 4850 9400 4850
+Wire Wire Line
+	9900 4550 9900 4600
+Wire Wire Line
+	9900 4150 9900 4050
+Wire Wire Line
+	9900 5050 9900 5150
+Wire Wire Line
+	9900 4600 9550 4600
+Wire Wire Line
+	9550 4600 9550 4450
+Connection ~ 9900 4600
+Wire Wire Line
+	9900 4600 9900 4650
+$Comp
+L power:+3V3 #PWR025
+U 1 1 5FA335B0
+P 9900 3950
+F 0 "#PWR025" H 9900 3800 50  0001 C CNN
+F 1 "+3V3" H 9915 4123 50  0000 C CNN
+F 2 "" H 9900 3950 50  0001 C CNN
+F 3 "" H 9900 3950 50  0001 C CNN
+	1    9900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4050 9550 4050
+Wire Wire Line
+	9550 4050 9550 4150
+Connection ~ 9900 4050
+Wire Wire Line
+	9900 4050 9900 3950
+$Comp
+L Device:D_Schottky D2
+U 1 1 5FA3B8D3
+P 9550 4300
+F 0 "D2" V 9504 4222 50  0000 R CNN
+F 1 "SD0603S040S0R2" V 9595 4222 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9550 4300 50  0001 C CNN
+F 3 "~" H 9550 4300 50  0001 C CNN
+	1    9550 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 4050 8250 3700
+Wire Wire Line
+	8250 3700 7950 3700
+Text Label 7950 3700 0    50   ~ 0
+P0.05
+Wire Wire Line
+	9200 4850 8800 4850
+Text Label 8800 4850 0    50   ~ 0
+P0.08
+$Comp
+L Device:C_Small C4
+U 1 1 5FB670AC
+P 1500 5850
+F 0 "C4" H 1592 5896 50  0000 L CNN
+F 1 "0.1uF" H 1592 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 5850 50  0001 C CNN
+F 3 "~" H 1500 5850 50  0001 C CNN
+	1    1500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5FB76BA6
+P 1500 6000
+F 0 "#PWR08" H 1500 5750 50  0001 C CNN
+F 1 "GND" H 1505 5827 50  0000 C CNN
+F 2 "" H 1500 6000 50  0001 C CNN
+F 3 "" H 1500 6000 50  0001 C CNN
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5950 1500 6000
+Wire Wire Line
+	1500 5750 1500 5700
+Wire Wire Line
+	1500 5700 1350 5700
+Wire Wire Line
+	1350 5700 1350 5650
+$Comp
+L Device:D_Schottky D3
+U 1 1 5F90310F
+P 10100 1950
+F 0 "D3" H 10100 2166 50  0000 C CNN
+F 1 "SD0603S040S0R2" H 10100 2075 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10100 1950 50  0001 C CNN
+F 3 "~" H 10100 1950 50  0001 C CNN
+	1    10100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1950 9950 1950
+Wire Wire Line
+	10250 1950 10700 1950
+Text Label 7200 1900 0    50   ~ 0
+SCL
+Text Label 7200 2000 0    50   ~ 0
+SDA
+$Comp
+L power:GND #PWR05
+U 1 1 5EDDF811
+P 7200 2350
+F 0 "#PWR05" H 7200 2100 50  0001 C CNN
+F 1 "GND" H 7205 2177 50  0000 C CNN
+F 2 "" H 7200 2350 50  0001 C CNN
+F 3 "" H 7200 2350 50  0001 C CNN
+	1    7200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5EDDE19E
+P 7050 2000
+F 0 "#PWR04" H 7050 1850 50  0001 C CNN
+F 1 "+3.3V" H 7065 2173 50  0000 C CNN
+F 2 "" H 7050 2000 50  0001 C CNN
+F 3 "" H 7050 2000 50  0001 C CNN
+	1    7050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2100 7050 2000
+Wire Wire Line
+	7200 2200 7200 2350
+Wire Wire Line
+	7050 2100 7550 2100
+Wire Wire Line
+	7550 2200 7200 2200
+Wire Wire Line
+	7550 1900 7200 1900
+Wire Wire Line
+	7550 2000 7200 2000
+$Comp
+L Xenigotchi-v1.3-rescue:TC2030-CTX-TC2030-CTX J3
+U 1 1 600A98CC
+P 7150 4800
+F 0 "J3" H 7150 5167 50  0000 C CNN
+F 1 "TC2030-CTX" H 7150 5076 50  0000 C CNN
+F 2 "TC2030-CTX:TAG_TC2030-IDC-NL" H 7150 4800 50  0001 C CNN
+F 3 "" H 7150 4800 50  0001 L BNN
+	1    7150 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5000 6550 5000
+Wire Wire Line
+	6550 5000 6550 5150
+Wire Wire Line
+	7800 3700 7800 4800
+Wire Wire Line
+	5650 3700 7800 3700
+Wire Wire Line
+	7700 3800 7700 4700
+Wire Wire Line
+	5650 3800 7700 3800
+Wire Wire Line
+	6650 4700 6550 4700
+Wire Wire Line
+	6550 4700 6550 4600
+NoConn ~ 7650 4900
+$Comp
+L Xenigotchi-v1.3-rescue:SKB501-SKB501_RF_Module U1
+U 1 1 5F6B1949
+P 4850 4200
+F 0 "U1" H 4300 4950 50  0000 C CNN
+F 1 "SKB501" H 4650 4950 50  0000 C CNN
+F 2 "skb501:SKB501_RF_Module" H 5350 3500 50  0001 C CNN
+F 3 "http://tzzysn.com/uploadfile/Download/Skylab_SKB501_V1.05_datasheet.pdf" H 6350 5400 50  0001 C CNN
+	1    4850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3050 4850 3300
+$Comp
+L Xenigotchi-v1.3-rescue:SM04B-SRSS-TB-SM04B-SRSS-TB LCD1
+U 1 1 60140F22
+P 7550 2200
+F 0 "LCD1" H 7792 1613 60  0000 C CNB
+F 1 "SM04B-SRSS-TB" H 7792 1719 60  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 7950 1940 60  0001 C CNN
+F 3 "" H 7550 2200 60  0000 C CNN
+	1    7550 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1350 3700 1350 3850
+Wire Wire Line
+	1350 3850 1450 3850
+Wire Wire Line
+	1450 3950 1050 3950
+Wire Wire Line
+	1450 4050 1050 4050
+Wire Wire Line
+	1450 4150 1050 4150
+Wire Wire Line
+	1450 4450 1050 4450
+Wire Wire Line
+	2450 3950 2900 3950
+Wire Wire Line
+	2450 4050 2900 4050
+Wire Wire Line
+	2450 4150 2900 4150
+Wire Wire Line
+	2450 4450 2900 4450
+Text Label 1050 3950 0    50   ~ 0
+SIG2
+Wire Wire Line
+	1050 4250 1450 4250
+Text Label 1050 4450 0    50   ~ 0
+ESC-RX
+Text Label 2900 4050 2    50   ~ 0
+GND
+Text Label 1050 4250 0    50   ~ 0
+GND
+NoConn ~ 2450 4350
+Text Label 2900 4450 2    50   ~ 0
+ESC-TX
+Text Label 1050 4150 0    50   ~ 0
+SWDIO
+Text Label 1050 4050 0    50   ~ 0
+SWCLK
+Text Label 2900 3950 2    50   ~ 0
+UART2-TX
+Text Label 2900 4150 2    50   ~ 0
+UART2-RX
+$Comp
+L Xenigotchi-v1.3-rescue:1-1734508-4-1-1734508-4 J2
+U 1 1 601AA1E1
+P 1950 4150
+F 0 "J2" H 1950 4717 50  0000 C CNN
+F 1 "1-1734508-4" H 1950 4626 50  0000 C CNN
+F 2 "1-1734508-4:TE_1-1734508-4" H 1950 4150 50  0001 L BNN
+F 3 "" H 1950 4150 50  0001 L BNN
+F 4 "1-1734508-4" H 1950 4150 50  0001 L BNN "Comment"
+F 5 "Connector" H 1950 4150 50  0001 L BNN "Product_Type"
+F 6 "14" H 1950 4150 50  0001 L BNN "Number_of_Positions"
+F 7 "Compliant" H 1950 4150 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 "2 mm[.079 in]" H 1950 4150 50  0001 L BNN "Centerline_Pitch"
+	1    1950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1900 6550 1900
+Wire Wire Line
+	6000 2000 6550 2000
+Wire Wire Line
+	6550 2000 6550 2100
+Wire Wire Line
+	6000 2100 6400 2100
+Wire Wire Line
+	6000 2200 6400 2200
+Wire Wire Line
+	6550 1900 6550 1800
+$Comp
+L power:+5V #PWR0101
+U 1 1 601DF58D
+P 6550 1800
+F 0 "#PWR0101" H 6550 1650 50  0001 C CNN
+F 1 "+5V" H 6565 1973 50  0000 C CNN
+F 2 "" H 6550 1800 50  0001 C CNN
+F 3 "" H 6550 1800 50  0001 C CNN
+	1    6550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 601E0264
+P 6550 2100
+F 0 "#PWR0102" H 6550 1850 50  0001 C CNN
+F 1 "GND" H 6555 1927 50  0000 C CNN
+F 2 "" H 6550 2100 50  0001 C CNN
+F 3 "" H 6550 2100 50  0001 C CNN
+	1    6550 2100
+	1    0    0    -1  
+$EndComp
+Text Label 6400 2100 2    50   ~ 0
+UART2-RX
+Text Label 6400 2200 2    50   ~ 0
+UART2-TX
+$Comp
+L Xenigotchi-v1.3-rescue:SM04B-SRSS-TB-SM04B-SRSS-TB UART2
+U 1 1 602650D3
+P 6000 1900
+F 0 "UART2" H 6242 1313 60  0000 C CNB
+F 1 "SM04B-SRSS-TB" H 6242 1419 60  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6400 1640 60  0001 C CNN
+F 3 "" H 6000 1900 60  0000 C CNN
+	1    6000 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4250 2900 4250
+Text Label 2900 4250 2    50   ~ 0
+RST
+Wire Wire Line
+	5650 4100 7900 4100
+Wire Wire Line
+	7900 4100 7900 5000
+Wire Wire Line
+	7900 5000 7650 5000
+Text Label 7900 4100 0    50   ~ 0
+RST
+NoConn ~ 2450 3850
+NoConn ~ 1450 4350
+Connection ~ 1350 5700
+Wire Wire Line
+	3200 6350 3700 6350
+Wire Wire Line
+	3700 6350 3700 6400
+Connection ~ 3200 6350
+Text Notes 500  7750 0    79   ~ 16
+(c) Copyright 2021 FreeSK8 Foundation\nLicensed under CERN-OHL-S V2.0\nhttps://ohwr.org/cern_ohl_s_v2.txt
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 61034B6C
+P 750 7150
+F 0 "#LOGO?" H 750 7425 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 750 6925 50  0001 C CNN
+F 2 "" H 750 7150 50  0001 C CNN
+F 3 "~" H 750 7150 50  0001 C CNN
+	1    750  7150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

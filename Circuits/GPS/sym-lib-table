@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name 2020-06-27_20-01-28)(type Legacy)(uri C:/Users/andre/Documents/KiCAD/UserLibs/ul_S4BPHKSLFSN/2020-06-27_20-01-28.lib)(options "")(descr ""))
+  (lib (name FreeSK8)(type Legacy)(uri C:/Users/andre/Documents/KiCAD/UserLibs/FreeSK8.lib)(options "")(descr ""))
+  (lib (name ECS-.327-9-34QCS-TR)(type Legacy)(uri C:/Users/andre/Documents/KiCAD/UserLibs/ECS-.327-9-34QCS-TR.lib)(options "")(descr ""))
+  (lib (name DSK-3R3H224U-HL)(type Legacy)(uri C:/Users/andre/Documents/KiCAD/UserLibs/DSK-3R3H224U-HL/DSK-3R3H224U-HL.lib)(options "")(descr ""))
+  (lib (name GPS-v2-rescue)(type Legacy)(uri ${KIPRJMOD}/GPS-v2-rescue.lib)(options "")(descr ""))
+  (lib (name GPS-rescue)(type Legacy)(uri ${KIPRJMOD}/GPS-rescue.lib)(options "")(descr ""))
+)

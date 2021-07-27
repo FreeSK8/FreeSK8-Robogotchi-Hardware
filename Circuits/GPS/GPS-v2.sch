@@ -1,0 +1,344 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "FreeSK8 GPS Module"
+Date "2021-07-27"
+Rev "v1.2S"
+Comp "Derelict Robot Industries"
+Comment1 "Authors: Andrew Dresner & Renee Love"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 5FBC01D3
+P 7850 3350
+F 0 "#PWR0102" H 7850 3200 50  0001 C CNN
+F 1 "+3V3" H 7865 3523 50  0000 C CNN
+F 2 "" H 7850 3350 50  0001 C CNN
+F 3 "" H 7850 3350 50  0001 C CNN
+	1    7850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4100 8850 4100
+$Comp
+L Device:C C1
+U 1 1 5FBC0F50
+P 7300 3650
+F 0 "C1" H 7415 3696 50  0000 L CNN
+F 1 "0.1uF" H 7415 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7338 3500 50  0001 C CNN
+F 3 "~" H 7300 3650 50  0001 C CNN
+	1    7300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3500 7300 3450
+Wire Wire Line
+	7300 3450 7850 3450
+Connection ~ 7850 3450
+Wire Wire Line
+	7850 3450 7850 3350
+Text Label 8850 4000 2    50   ~ 0
+RX
+Text Label 8450 4100 0    50   ~ 0
+TX
+Wire Wire Line
+	8850 3800 8700 3800
+Wire Wire Line
+	8700 3800 8700 3450
+Wire Wire Line
+	8700 3450 7850 3450
+Wire Wire Line
+	8850 3900 8700 3900
+$Comp
+L power:GND #PWR05
+U 1 1 5FBDDA78
+P 8700 3900
+F 0 "#PWR05" H 8700 3650 50  0001 C CNN
+F 1 "GND" V 8705 3772 50  0000 R CNN
+F 2 "" H 8700 3900 50  0001 C CNN
+F 3 "" H 8700 3900 50  0001 C CNN
+	1    8700 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5FBDF634
+P 7800 4300
+F 0 "R1" H 7868 4346 50  0000 L CNN
+F 1 "1k" H 7868 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 4300 50  0001 C CNN
+F 3 "~" H 7800 4300 50  0001 C CNN
+	1    7800 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4200 7800 4050
+$Comp
+L power:+3V3 #PWR01
+U 1 1 5FBE058A
+P 7800 4050
+F 0 "#PWR01" H 7800 3900 50  0001 C CNN
+F 1 "+3V3" H 7815 4223 50  0000 C CNN
+F 2 "" H 7800 4050 50  0001 C CNN
+F 3 "" H 7800 4050 50  0001 C CNN
+	1    7800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4400 7800 4500
+$Comp
+L Device:LED D1
+U 1 1 5FBE139A
+P 7800 4650
+F 0 "D1" V 7839 4533 50  0000 R CNN
+F 1 "LED" V 7748 4533 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7800 4650 50  0001 C CNN
+F 3 "~" H 7800 4650 50  0001 C CNN
+	1    7800 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 4800 7800 4950
+$Comp
+L power:GND #PWR02
+U 1 1 5FBE3AAA
+P 7800 4950
+F 0 "#PWR02" H 7800 4700 50  0001 C CNN
+F 1 "GND" H 7805 4777 50  0000 C CNN
+F 2 "" H 7800 4950 50  0001 C CNN
+F 3 "" H 7800 4950 50  0001 C CNN
+	1    7800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F95C1D2
+P 2500 5050
+F 0 "#PWR0104" H 2500 4800 50  0001 C CNN
+F 1 "GND" H 2505 4877 50  0000 C CNN
+F 2 "" H 2500 5050 50  0001 C CNN
+F 3 "" H 2500 5050 50  0001 C CNN
+	1    2500 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5050 2500 4900
+Wire Wire Line
+	2500 4900 2650 4900
+Wire Wire Line
+	2950 4900 2950 4350
+Connection ~ 2650 4900
+Wire Wire Line
+	2650 4900 2950 4900
+Wire Wire Line
+	2500 4900 2250 4900
+Wire Wire Line
+	2250 4900 2250 4450
+Connection ~ 2500 4900
+Wire Wire Line
+	2250 4900 1950 4900
+Wire Wire Line
+	1950 4900 1950 4350
+Connection ~ 2250 4900
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F960634
+P 1950 4250
+F 0 "H1" H 1950 4537 50  0000 C CNN
+F 1 "MountingHole_Pad" H 1950 4446 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1950 4250 50  0001 C CNN
+F 3 "~" H 1950 4250 50  0001 C CNN
+	1    1950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F9627E5
+P 2250 4350
+F 0 "H2" H 2350 4399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2350 4308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 2250 4350 50  0001 C CNN
+F 3 "~" H 2250 4350 50  0001 C CNN
+	1    2250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F963EA5
+P 2950 4250
+F 0 "H4" H 2950 4537 50  0000 C CNN
+F 1 "MountingHole_Pad" H 2950 4446 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 2950 4250 50  0001 C CNN
+F 3 "~" H 2950 4250 50  0001 C CNN
+	1    2950 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4900 2650 4550
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F9634F8
+P 2650 4450
+F 0 "H3" H 2750 4499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2750 4408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 2650 4450 50  0001 C CNN
+F 3 "~" H 2650 4450 50  0001 C CNN
+	1    2650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GPS-v2-rescue:S4B-PH-K-SLFSN-2020-06-27_20-01-28 J2
+U 1 1 614062F4
+P 8850 3800
+F 0 "J2" H 9378 3703 60  0000 L CNN
+F 1 "S4B-PH-K-SLFSN" H 9378 3597 60  0000 L CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 9250 3540 60  0001 C CNN
+F 3 "" H 8850 3800 60  0000 C CNN
+	1    8850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4000 8250 4200
+Wire Wire Line
+	8250 4000 8850 4000
+$Comp
+L Device:R_Small_US R2
+U 1 1 614084CA
+P 8250 4300
+F 0 "R2" H 8318 4346 50  0000 L CNN
+F 1 "1k" H 8318 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8250 4300 50  0001 C CNN
+F 3 "~" H 8250 4300 50  0001 C CNN
+	1    8250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4400 8250 4500
+$Comp
+L Device:LED D2
+U 1 1 61409441
+P 8250 4650
+F 0 "D2" V 8289 4533 50  0000 R CNN
+F 1 "LED" V 8198 4533 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 8250 4650 50  0001 C CNN
+F 3 "~" H 8250 4650 50  0001 C CNN
+	1    8250 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 4800 8250 4950
+$Comp
+L power:GND #PWR07
+U 1 1 6140A288
+P 8250 4950
+F 0 "#PWR07" H 8250 4700 50  0001 C CNN
+F 1 "GND" H 8255 4777 50  0000 C CNN
+F 2 "" H 8250 4950 50  0001 C CNN
+F 3 "" H 8250 4950 50  0001 C CNN
+	1    8250 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 6141AED2
+P 5950 3850
+F 0 "J1" H 6030 3892 50  0000 L CNN
+F 1 "Conn_01x03" H 6030 3801 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 5950 3850 50  0001 C CNN
+F 3 "~" H 5950 3850 50  0001 C CNN
+	1    5950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3750 5250 3750
+Wire Wire Line
+	5250 3750 5250 3600
+Wire Wire Line
+	5750 3850 5250 3850
+Wire Wire Line
+	5250 3850 5250 4000
+$Comp
+L power:GND #PWR04
+U 1 1 6067EE2D
+P 5250 4000
+F 0 "#PWR04" H 5250 3750 50  0001 C CNN
+F 1 "GND" H 5255 3827 50  0000 C CNN
+F 2 "" H 5250 4000 50  0001 C CNN
+F 3 "" H 5250 4000 50  0001 C CNN
+	1    5250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR03
+U 1 1 6067F395
+P 5250 3600
+F 0 "#PWR03" H 5250 3450 50  0001 C CNN
+F 1 "+3V3" H 5265 3773 50  0000 C CNN
+F 2 "" H 5250 3600 50  0001 C CNN
+F 3 "" H 5250 3600 50  0001 C CNN
+	1    5250 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3950 5400 3950
+Text Label 5400 3950 0    50   ~ 0
+TX
+$Comp
+L Device:C_Small C2
+U 1 1 60680F61
+P 6800 3650
+F 0 "C2" H 6892 3696 50  0000 L CNN
+F 1 "10uF" H 6892 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6800 3650 50  0001 C CNN
+F 3 "~" H 6800 3650 50  0001 C CNN
+	1    6800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3550 6800 3450
+Wire Wire Line
+	6800 3450 7300 3450
+Connection ~ 7300 3450
+Wire Wire Line
+	7300 3800 7300 3950
+Wire Wire Line
+	7300 3950 7050 3950
+Wire Wire Line
+	6800 3950 6800 3750
+Wire Wire Line
+	7050 3950 7050 4100
+Connection ~ 7050 3950
+Wire Wire Line
+	7050 3950 6800 3950
+$Comp
+L power:GND #PWR06
+U 1 1 6068436D
+P 7050 4100
+F 0 "#PWR06" H 7050 3850 50  0001 C CNN
+F 1 "GND" H 7055 3927 50  0000 C CNN
+F 2 "" H 7050 4100 50  0001 C CNN
+F 3 "" H 7050 4100 50  0001 C CNN
+	1    7050 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 550  7700 0    79   ~ 16
+(c) Copyright 2021 FreeSK8 Foundation\nLicensed under CERN-OHL-S V2.0\nhttps://ohwr.org/cern_ohl_s_v2.txt
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO?
+U 1 1 6102D601
+P 950 6900
+F 0 "#LOGO?" H 950 7400 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 950 6500 50  0001 C CNN
+F 2 "" H 950 6900 50  0001 C CNN
+F 3 "~" H 950 6900 50  0001 C CNN
+	1    950  6900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
