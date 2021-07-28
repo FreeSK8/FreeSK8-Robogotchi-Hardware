@@ -7,6 +7,8 @@ Think of it like a blackbox flight recorder for your esk8 or LEV.
 The Robogotchi brings Always-On Logging as a core feature with an asynchronous logging integration with our FreeSK8 Mobile App. 
 
 Ride now, Sync later.
+
+[Robogotchi Documentation @ FreeSK8 Codex](https://codex.freesk8.org/docs/robogotchi)
  
 <!-- LICENSE -->
 ## License
