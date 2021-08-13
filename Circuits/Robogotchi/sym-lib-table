@@ -167,4 +167,5 @@
   (lib (name 2SD1484KT146R)(type Legacy)(uri C:/Users/andre/Documents/KiCAD/UserLibs/2SD1484KT146R/2SD1484KT146R.lib)(options "")(descr ""))
   (lib (name MCU_Espressif)(type Legacy)(uri C:/Users/andre/Documents/GitHub/kicad-symbols/MCU_Espressif.lib)(options "")(descr ""))
   (lib (name Freesk8-Robogotchi-v1.4-rescue)(type Legacy)(uri ${KIPRJMOD}/Freesk8-Robogotchi-v1.4-rescue.lib)(options "")(descr ""))
+  (lib (name Freesk8-Robogotchi-v1.5-rescue)(type Legacy)(uri ${KIPRJMOD}/Freesk8-Robogotchi-v1.5-rescue.lib)(options "")(descr ""))
 )

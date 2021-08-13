@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\andre\Documents\GitHub\FreeSK8-Robogotchi-Hardware\Circuits\Xenigotchi\Xenigotchi-v1.3.sch</source>
+    <date>8/13/2021 4:05:30 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>FreeSK8 Xenigotchi</title>
+        <company>Derelict Robot Industries</company>
+        <rev>v1.5</rev>
+        <date>2021-08-13</date>
+        <source>Xenigotchi-v1.3.sch</source>
+        <comment number="1" value="Authors: Andrew Dresner &amp; Renee Love"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="LS1">
+      <value>CMT-8503-90-SMT-TR</value>
+      <footprint>CMT-8503-90-SMT-TR:XDCR_CMT-8503-90-SMT-TR</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/cui-devices/CMT-8503-90-SMT-TR/102-CMT-8503-90-SMT-CT-ND/10326248</datasheet>
+      <fields>
+        <field name="Field4">1.0</field>
+        <field name="Field5">Manufacturer Recommendations</field>
+        <field name="Field6">3.00mm</field>
+      </fields>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="CMT-8503-90-SMT-TR-CMT-8503-90-SMT-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC67B5E</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>RV-3129-C3</value>
+      <footprint>SamacSys_Parts:ABRTCMC32768kHzEOZ9S3DBT</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/AB-RTCMC-32.768kHz-EOZ9-S3-DBT.pdf</datasheet>
+      <fields>
+        <field name="Description">Real Time Clock HH:MM:SS 12/24 hour Wk DD Alarm/Tmr I2C</field>
+        <field name="Height">0.9</field>
+        <field name="Manufacturer_Name">ABRACON</field>
+        <field name="Manufacturer_Part_Number">AB-RTCMC-32.768kHz-EOZ9-S3-DBT</field>
+        <field name="Mouser Part Number">815-ABMC-327EOZ9S3DB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=815-ABMC-327EOZ9S3DB</field>
+      </fields>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="AB-RTCMC-32.768kHz-EOZ9-S3-DBT-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2731F1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>DSK-3R3H224U-HL</value>
+      <footprint>DSK-3R3H224U-HL:CAP_DSK-3R3H224U-HL</footprint>
+      <datasheet>Unavailable</datasheet>
+      <fields>
+        <field name="Field4">DSK-3R3H224U-HL</field>
+        <field name="Field5">None</field>
+        <field name="Field6">Elna America</field>
+        <field name="Field7">DSK Series 0.22 F 3.3 V ±30 % Coin Cell Aluminum Electrolytic Dynacap Capacitor</field>
+        <field name="Field8">Coin Wide Terminals - Opposite Sides  Elna</field>
+      </fields>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="DSK-3R3H224U-HL-DSK-3R3H224U-HL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F307DDE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470r</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F34AFC6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10000pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F35BBD7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F39F1C8</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F39FF5C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF96C24</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1.0uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF95FEE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF94FC3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>W25N01GVZEIG_TR</value>
+      <footprint>W25N01GVZEIG_TR:SON127P800X600X80-9N</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf</datasheet>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="W25N01GVZEIG_TR-W25N01GVZEIG_TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC3B8D4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6BCDAE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6D1921</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2SD1484KT146R</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/discrete/transistor/bipolar/2sd1484k-e.pdf</datasheet>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="2SD1484KT146R-2SD1484KT146R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0CB89</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>180r</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0E7BB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SD0603S040S0R2</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3B8D3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB670AC</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TC2030-CTX</value>
+      <footprint>TC2030-CTX:TAG_TC2030-IDC-NL</footprint>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="TC2030-CTX-TC2030-CTX" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600A98CC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SKB501</value>
+      <footprint>skb501:SKB501_RF_Module</footprint>
+      <datasheet>http://tzzysn.com/uploadfile/Download/Skylab_SKB501_V1.05_datasheet.pdf</datasheet>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="SKB501-SKB501_RF_Module" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6B1949</tstamp>
+    </comp>
+    <comp ref="LCD1">
+      <value>SM04B-SRSS-TB</value>
+      <footprint>sm04-srss-tb:SM04B-SRSS-TB</footprint>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="SM04B-SRSS-TB-SM04B-SRSS-TB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60140F22</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>1-1734508-4</value>
+      <footprint>1-1734508-4:TE_1-1734508-4</footprint>
+      <fields>
+        <field name="Centerline_Pitch">2 mm[.079 in]</field>
+        <field name="Comment">1-1734508-4</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+        <field name="Number_of_Positions">14</field>
+        <field name="Product_Type">Connector</field>
+      </fields>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="1-1734508-4-1-1734508-4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601AA1E1</tstamp>
+    </comp>
+    <comp ref="UART2">
+      <value>SM04B-SRSS-TB</value>
+      <footprint>sm04-srss-tb:SM04B-SRSS-TB</footprint>
+      <libsource lib="Xenigotchi-v1.3-rescue" part="SM04B-SRSS-TB-SM04B-SRSS-TB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602650D3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SM04B-SRSS-TB</value>
+      <footprint>sm04-srss-tb:SM04B-SRSS-TB</footprint>
+      <libsource lib="SM04B-SRSS-TB" part="SM04B-SRSS-TB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61191012</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLV75533PDBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv755p.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="TLV75533PDBV" description="500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611D6148</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611EBBA0</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky_Small</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6138CFB4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV70012_SOT23-5">
+      <aliases>
+        <alias>TLV70013_SOT23-5</alias>
+        <alias>TLV70015_SOT23-5</alias>
+        <alias>TLV70018_SOT23-5</alias>
+        <alias>TLV70019_SOT23-5</alias>
+        <alias>TLV70025_SOT23-5</alias>
+        <alias>TLV70030_SOT23-5</alias>
+        <alias>TLV70032_SOT23-5</alias>
+        <alias>TLV70033_SOT23-5</alias>
+        <alias>TLV70036_SOT23-5</alias>
+        <alias>TLV70212_SOT23-5</alias>
+        <alias>TLV70215_SOT23-5</alias>
+        <alias>TLV70218_SOT23-5</alias>
+        <alias>TLV70225_SOT23-5</alias>
+        <alias>TLV70228_SOT23-5</alias>
+        <alias>TLV70230_SOT23-5</alias>
+        <alias>TLV70231_SOT23-5</alias>
+        <alias>TLV70233_SOT23-5</alias>
+        <alias>TLV70235_SOT23-5</alias>
+        <alias>TLV70237_SOT23-5</alias>
+        <alias>TLV70245_SOT23-5</alias>
+        <alias>TLV71209_SOT23-5</alias>
+        <alias>TLV71210_SOT23-5</alias>
+        <alias>TLV71211_SOT23-5</alias>
+        <alias>TLV71310PDBV</alias>
+        <alias>TLV71311PDBV</alias>
+        <alias>TLV71312PDBV</alias>
+        <alias>TLV71315PDBV</alias>
+        <alias>TLV71318PDBV</alias>
+        <alias>TLV713185PDBV</alias>
+        <alias>TLV71325PDBV</alias>
+        <alias>TLV71328PDBV</alias>
+        <alias>TLV713285PDBV</alias>
+        <alias>TLV71330PDBV</alias>
+        <alias>TLV71333PDBV</alias>
+        <alias>TLV75509PDBV</alias>
+        <alias>TLV75510PDBV</alias>
+        <alias>TLV75512PDBV</alias>
+        <alias>TLV75515PDBV</alias>
+        <alias>TLV75518PDBV</alias>
+        <alias>TLV75519PDBV</alias>
+        <alias>TLV75525PDBV</alias>
+        <alias>TLV75528PDBV</alias>
+        <alias>TLV75529PDBV</alias>
+        <alias>TLV75530PDBV</alias>
+        <alias>TLV75533PDBV</alias>
+        <alias>TLV75709PDBV</alias>
+        <alias>TLV75710PDBV</alias>
+        <alias>TLV75712PDBV</alias>
+        <alias>TLV75715PDBV</alias>
+        <alias>TLV75718PDBV</alias>
+        <alias>TLV75719PDBV</alias>
+        <alias>TLV75725PDBV</alias>
+        <alias>TLV75728PDBV</alias>
+        <alias>TLV75729PDBV</alias>
+        <alias>TLV75730PDBV</alias>
+        <alias>TLV75733PDBV</alias>
+        <alias>TLV702475_SOT23-5</alias>
+      </aliases>
+      <description>200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv700.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV70012_SOT23-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SM04B-SRSS-TB" part="SM04B-SRSS-TB">
+      <footprints>
+        <fp>CONN_SM04B-SRSS-TB_JST</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM04B-SRSS-TB</field>
+        <field name="Footprint">CONN_SM04B-SRSS-TB_JST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="1-1734508-4-1-1734508-4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1-1734508-4-1-1734508-4</field>
+        <field name="Footprint">TE_1-1734508-4</field>
+        <field name="Comment">1-1734508-4</field>
+        <field name="Product_Type">Connector</field>
+        <field name="Number_of_Positions">14</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+        <field name="Centerline_Pitch">2 mm[.079 in]</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="2SD1484KT146R-2SD1484KT146R">
+      <footprints>
+        <fp>TRANS_2SD1383KT_ROM</fp>
+        <fp>TRANS_2SD1383KT_ROM-M</fp>
+        <fp>TRANS_2SD1383KT_ROM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2SD1484KT146R-2SD1484KT146R</field>
+        <field name="Footprint">TRANS_2SD1383KT_ROM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openEm"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="AB-RTCMC-32.768kHz-EOZ9-S3-DBT-SamacSys_Parts">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">AB-RTCMC-32.768kHz-EOZ9-S3-DBT-SamacSys_Parts</field>
+        <field name="Footprint">ABRTCMC32768kHzEOZ9S3DBT</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/AB-RTCMC-32.768kHz-EOZ9-S3-DBT.pdf</field>
+        <field name="Description">Real Time Clock HH:MM:SS 12/24 hour Wk DD Alarm/Tmr I2C</field>
+        <field name="Height">0.9</field>
+        <field name="Mouser Part Number">815-ABMC-327EOZ9S3DB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=815-ABMC-327EOZ9S3DB</field>
+        <field name="Manufacturer_Name">ABRACON</field>
+        <field name="Manufacturer_Part_Number">AB-RTCMC-32.768kHz-EOZ9-S3-DBT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKOE" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="CLKOUT" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="VSS" type="passive"/>
+        <pin num="7" name="~INT" type="passive"/>
+        <pin num="8" name="N.C._1" type="passive"/>
+        <pin num="9" name="VBACKUP" type="passive"/>
+        <pin num="10" name="N.C._2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="CMT-8503-90-SMT-TR-CMT-8503-90-SMT-TR">
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">CMT-8503-90-SMT-TR-CMT-8503-90-SMT-TR</field>
+        <field name="Footprint">XDCR_CMT-8503-90-SMT-TR</field>
+        <field name="Datasheet">CUI Inc.</field>
+        <field name="Field4">1.0</field>
+        <field name="Field5">Manufacturer Recommendations</field>
+        <field name="Field6">3.00mm</field>
+      </fields>
+      <pins>
+        <pin num="N" name="N" type="passive"/>
+        <pin num="P" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="DSK-3R3H224U-HL-DSK-3R3H224U-HL">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">DSK-3R3H224U-HL-DSK-3R3H224U-HL</field>
+        <field name="Footprint">CAP_DSK-3R3H224U-HL</field>
+        <field name="Datasheet">Unavailable</field>
+        <field name="Field4">DSK-3R3H224U-HL</field>
+        <field name="Field5">None</field>
+        <field name="Field6">Elna America</field>
+        <field name="Field7">DSK Series 0.22 F 3.3 V ±30 % Coin Cell Aluminum Electrolytic Dynacap Capacitor</field>
+        <field name="Field8">Coin Wide Terminals - Opposite Sides  Elna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="SKB501-SKB501_RF_Module">
+      <footprints>
+        <fp>SKB501*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SKB501-SKB501_RF_Module</field>
+        <field name="Footprint">RF_Module:SKB501</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="P0.05/AIN3" type="BiDi"/>
+        <pin num="4" name="P0.26" type="BiDi"/>
+        <pin num="5" name="P0.27" type="BiDi"/>
+        <pin num="6" name="P0.28/AIN4" type="BiDi"/>
+        <pin num="7" name="P0.29/AIN5" type="BiDi"/>
+        <pin num="8" name="P0.30/AIN6" type="BiDi"/>
+        <pin num="9" name="P0.31/AIN7" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="P0.02/AIN0" type="BiDi"/>
+        <pin num="12" name="P0.03" type="BiDi"/>
+        <pin num="13" name="P0.06" type="BiDi"/>
+        <pin num="14" name="P0.07" type="BiDi"/>
+        <pin num="15" name="P0.08" type="BiDi"/>
+        <pin num="16" name="P0.09/NFC1" type="BiDi"/>
+        <pin num="17" name="P0.10/NFC2" type="BiDi"/>
+        <pin num="18" name="P0.17" type="BiDi"/>
+        <pin num="19" name="P0.19" type="BiDi"/>
+        <pin num="20" name="P0.20" type="BiDi"/>
+        <pin num="21" name="P0.21" type="BiDi"/>
+        <pin num="22" name="~RESET" type="BiDi"/>
+        <pin num="23" name="P0.22" type="BiDi"/>
+        <pin num="24" name="P0.23" type="BiDi"/>
+        <pin num="25" name="SWDIO" type="BiDi"/>
+        <pin num="26" name="SWDCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="SM04B-SRSS-TB-SM04B-SRSS-TB">
+      <footprints>
+        <fp>CONN_SM04B-SRSS-TB_JST</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM04B-SRSS-TB-SM04B-SRSS-TB</field>
+        <field name="Footprint">CONN_SM04B-SRSS-TB_JST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="TC2030-CTX-TC2030-CTX">
+      <footprints>
+        <fp>TC2030-IDC-NL</fp>
+        <fp>TC2030-IDC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TC2030-CTX-TC2030-CTX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="BiDi"/>
+        <pin num="2" name="TMS" type="BiDi"/>
+        <pin num="3" name="~RESET" type="BiDi"/>
+        <pin num="4" name="TCK" type="BiDi"/>
+        <pin num="5" name="GND" type="BiDi"/>
+        <pin num="6" name="TDO" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xenigotchi-v1.3-rescue" part="W25N01GVZEIG_TR-W25N01GVZEIG_TR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25N01GVZEIG_TR-W25N01GVZEIG_TR</field>
+        <field name="Footprint">SON127P800X600X80-9N</field>
+        <field name="Datasheet">Winbond Electronics Corp.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS~" type="input"/>
+        <pin num="2" name="DO(IO1)" type="BiDi"/>
+        <pin num="3" name="IO2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="BiDi"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="EXP" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="SM04B-SRSS-TB">
+      <uri>C:/Users/andre/Documents/KiCAD/UserLibs/SM04B-SRSS-TB/SM04B-SRSS-TB.lib</uri>
+    </library>
+    <library logical="Xenigotchi-v1.3-rescue">
+      <uri>C:\Users\andre\Documents\GitHub\FreeSK8-Robogotchi-Hardware\Circuits\Xenigotchi/Xenigotchi-v1.3-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="2" name="/RST">
+      <node ref="J2" pin="12"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="U1" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="LCD1" pin="4"/>
+      <node ref="Y1" pin="4"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="Y1" pin="5"/>
+      <node ref="LCD1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J2" pin="10"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="UART2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="LCD1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Y1" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J3" pin="5"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="6" name="/P0.05">
+      <node ref="U1" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="LS1" pin="N"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="8" name="+3V3">
+      <node ref="LS1" pin="P"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J3" pin="1"/>
+      <node ref="LCD1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="9" name="/P0.08">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="10" name="Net-(Q1-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D3-Pad1)">
+      <node ref="J1" pin="4"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="16" name="/UART2-RX">
+      <node ref="J2" pin="11"/>
+      <node ref="UART2" pin="3"/>
+    </net>
+    <net code="17" name="/UART2-TX">
+      <node ref="J2" pin="9"/>
+      <node ref="UART2" pin="4"/>
+    </net>
+    <net code="18" name="/SWCLK">
+      <node ref="J3" pin="4"/>
+      <node ref="U1" pin="26"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="19" name="/SWDIO">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="25"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="20" name="/ESC-TX">
+      <node ref="U1" pin="14"/>
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="21" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="22" name="/ESC-RX">
+      <node ref="J2" pin="7"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="23" name="/SIG2">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="24" name="+5V">
+      <node ref="J2" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="UART2" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="25" name="/VBACKUP">
+      <node ref="Y1" pin="9"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C3-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="27" name="/GPS-RX">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="28" name="/GPS-TX">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="29" name="Net-(Y1-Pad3)">
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="30" name="Net-(Y1-Pad10)">
+      <node ref="Y1" pin="10"/>
+    </net>
+    <net code="31" name="Net-(Y1-Pad1)">
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(Y1-Pad7)">
+      <node ref="Y1" pin="7"/>
+    </net>
+    <net code="33" name="Net-(Y1-Pad8)">
+      <node ref="Y1" pin="8"/>
+    </net>
+    <net code="34" name="/P0.21">
+      <node ref="U1" pin="21"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="35" name="/P0.09">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="36" name="/P0.10">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="37" name="/P0.17">
+      <node ref="U1" pin="18"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="38" name="/P0.19">
+      <node ref="U1" pin="19"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="39" name="/P0.20">
+      <node ref="U1" pin="20"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="40" name="/P0.22">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="41" name="/P0.23">
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="42" name="/P0.29">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="43" name="/P0.31">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="44" name="/P0.30">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="45" name="/P0.28">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="46" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="47" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+  </nets>
+</export>
