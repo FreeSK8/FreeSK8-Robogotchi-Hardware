@@ -1253,6 +1253,11 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.255 -0.95 180) (size 1.21 0.59) (layers F.Cu F.Paste F.Mask)
       (net 7 +5V))
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diode_SMD:D_SOD-123 (layer F.Cu) (tedit 58645DC7) (tstamp 610D149E)
